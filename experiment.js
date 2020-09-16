@@ -69,6 +69,14 @@ function init() {
     scene.add(cube);
     arObjects.push(cube);
 
+    let cube1 = new THREE.Mesh(
+        new THREE.BoxBufferGeometry(4,1,1),
+        new THREE.MeshLambertMaterial({color:'red'})
+    );
+    cube1.position.set(-8, 1.1, -20);
+    scene.add(cube1);
+    arObjects.push(cube1);
+
     console.log("setup renderer");
     // setup ARView with ARPerspectiveCamera
     renderer = new THREE.WebGLRenderer({ alpha: true });
