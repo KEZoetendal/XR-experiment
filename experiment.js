@@ -71,7 +71,7 @@ function init() {
 
     let cube1 = new THREE.Mesh(
         new THREE.BoxBufferGeometry(4,1,1),
-        new THREE.MeshLambertMaterial({color:'yellow'})
+        new THREE.MeshLambertMaterial({color:'green'})
     );
     cube1.position.set(-8, 1.1, -20);
     scene.add(cube1);
