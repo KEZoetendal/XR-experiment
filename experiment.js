@@ -70,10 +70,10 @@ function init() {
     arObjects.push(cube);
 
     let cube1 = new THREE.Mesh(
-        new THREE.BoxBufferGeometry(4,1,1),
+        new THREE.BoxBufferGeometry(1,1,1),
         new THREE.MeshLambertMaterial({color:'green'})
     );
-    cube1.position.set(-8, 1.1, -20);
+    cube1.position.set(-3, 1.1, -16);
     scene.add(cube1);
     arObjects.push(cube1);
 
